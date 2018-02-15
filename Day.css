@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  font-family: "Work Sans","HelveticaNeue","Helvetica Neue",sans-serif;
+}
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+/*Flex items*/
+.nav-bar{
+display: flex;
+flex-basis: auto;
+justify-content: center;
+justify-content: space-around;
+}
+.main-column {
+fle
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin-top:20px;
+}
