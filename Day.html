@@ -19,7 +19,7 @@
    <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">Hopkins.com</a>
+        <a class="navbar-brand" href="#">XelaCuts.com</a>
       </div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
@@ -42,7 +42,7 @@
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-globe"></span> Sign Up/Login</a></li>
+      <li><a data-toggle="modal" data-target="#myModal" href="#"><span class="glyphicon glyphicon-globe"></span> XC Members</a></li>
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Contact </a></li>
     </ul>
 
@@ -54,7 +54,7 @@
 <div class="container-fluid">
   <div class="opening">
     <div class="col-md-8">
-      <h1>Changing the way you think about everything, man.</h1>
+      <h1>Changing the way you think about everything.</h1>
     </div>
   </div>
 
@@ -119,10 +119,45 @@
 
 </div>
 </div>
- </body>
+
 
  <footer>
 
  </footer>
 
+
+
+ <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">Sign up for our newsletters</h3>
+      </div>
+
+      <form action="Day.html" method="post">
+        <div class="form-group">
+          <label for="email"> Email: </label>
+            <input type="text" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="username"> First and Last name:</label>
+            <input type="text" class="form-control" id="username">
+
+      </div>
+    </form>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">submit</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="Day.js"></script>
+</body>
  </html>
