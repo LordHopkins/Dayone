@@ -1,13 +1,32 @@
 body {
   text-align: center;
-  background-color:: #FAFAF5;
+  
 }
+
+
 .wrapper {
-  max-width: 900px;
+  max-width: 1200px;
   font-family: "Work Sans","HelveticaNeue","Helvetica Neue",sans-serif !important;
   margin: 0 auto;
 }
 
 h1, h2, h3, h4 {
   font-family: "Big Caslon","Book Antiqua","Palatino Linotype",Georgia,serif !important;
+}
+
+
+ul,li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+a {
+   color: #3d4246 !important;
+}
+
+.dropdown-toggle {
+  background-color: transparent !important;
+  border-color: #fff !important;
+  border-style: solid !important;
 }
